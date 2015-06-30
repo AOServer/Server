@@ -1,0 +1,39 @@
+.ServerFrame {
+	position: absolute;
+	width: 895px;
+	height: 203px;
+	left: 0px;
+	top: 95px;
+}
+#MainLabel {
+	align : center;
+	background-image: url(../images/fiol.jpg);
+	position: fixed;
+	width: 895px;
+	height: 816px;
+	left: 116px;
+	top: 40px;
+	font-family: "Kabarett Decor DEMO";
+	font-weight: 400;
+	background-color: #3a50d9;
+	color: #e0eff2;
+	text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+	font-size: 88px;
+	text-align: center;
+}
+.ServerFrame:hover {
+	 opacity: 1;
+ 
+   /*свечение*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+   
+}
+
+img {
+	position: absolute;
+	left: -1px;
+	top: 87px;
+	width: 895px;
+}

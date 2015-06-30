@@ -1,0 +1,3495 @@
+HTML,BODY,DIV,SPAN,APPLET,OBJECT,IFRAME,H1,H2,H3,H4,H5,H6,P,BLOCKQUOTE,PRE,A,ABBR,ACRONYM,ADDRESS,BIG,CITE,CODE,DEL,DFN,
+EM,FONT,IMG,INS,KBD,Q,S,SAMP,SMALL,STRIKE,STRONG,SUB,SUP,TT,VAR,HR,B,U,I,CENTER,DL,DT,DD,OL,UL,LI,FIELDSET,FORM,LABEL,
+LEGEND,TABLE,CAPTION,TBODY,TFOOT,THEAD,TR,TH,TD{
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+	vertical-align:top;
+	font-family:inherit;
+	}
+
+BODY,TEXTAREA,INPUT,SELECT {
+	font:12px Verdana, Tahoma, Arial, sans-serif;
+	}
+
+.authErrorMain {
+    padding: 0px;
+    width: 610px;
+}
+
+.authError {
+    background: url("http://allods.cdn.gmru.net/static/img/content/auth_error/auth-error-bg.png") no-repeat scroll right top transparent;
+    margin: 0px;
+    padding: 11px 250px 6px 11px;
+    min-height: 212px;
+    position: relative;
+}
+	
+html{ 
+	background:#000000;
+	}	
+BODY {
+	background:#1c140e url("../img/bg_40000.jpg") repeat-y 50% 30px;
+background-position:50% 0%;
+	}
+a {	
+	color:#0072bc; 
+	text-decoration:underline;
+	}
+a:hover {
+	text-decoration:underline;
+	color:#000; }
+
+img {border: 0;}
+a img {border:0}
+
+.clear {clear: both; font-size: 1px; height: 1px; line-height: 1px}
+
+
+@font-face {
+    font-family: 'AllodsRegular';
+    src: url('../index_files/allods-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'AllodsWest';
+    src: url('../index_files/allods_new-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+        }
+
+
+.counterflash {position: absolute; top: 182px; left: 369px;}
+
+/*structure	
+	-----------------------------------------*/		
+#layout{
+	min-width:995px;
+	width:100%;
+	background: url("../img/bg_top_4.jpg") no-repeat 50% 0;
+
+	}	
+#layout_in{
+	background: url("../img/bg_bot_4.png") no-repeat 50% 100%;
+	position:relative;
+	}
+.container{
+	width:980px;
+	margin:0 auto;
+	}	
+.logo{
+  height: 178px;
+    left: 127px;
+    position: absolute;
+    top: 0;
+    width: 252px;
+	}
+#footer{
+		height:67px;
+		position:relative;
+		width:970px;
+		margin:0 0 0 4px;
+		top:-16px;
+		background: url("../img/footer01.png") no-repeat 0 0;
+		}
+	#footer li{
+		position:absolute;
+		top:26px;
+		height:20px;
+		list-style:none;
+		}
+		#footer li a{
+			display:block;
+			width:100%;
+			height:20px;
+			}
+	.foot_menu1{
+		left:59px;
+		width:60px;
+		}
+	.foot_menu2{
+		left:134px;
+		width:60px;
+		}
+	.foot_menu3{
+		left: 209px;
+		width: 52px;
+		}
+	.foot_menu4{
+		left: 276px;
+		width: 109px;
+		}
+	.foot_menu5{
+		left: 401px;
+		width: 51px;
+		}
+	.foot_menu6{
+		left: 467px;
+		width: 81px;
+		}
+	.foot_menu7{
+		left: 565px;
+		width: 77px;
+		}
+	.foot_menu8{
+		left: 657px;
+		width: 140px;
+		}
+	.foot_menu9{
+		left: 811px;
+		width: 104px;
+		}
+.copyright{
+	background:#000;
+	min-height: 50px;
+	padding:15px 0;
+	}		
+	.copyright_in{
+		width:380px;
+		margin:0 auto;
+		font-size:10px;
+		line-height:10px;
+		color:#fff;		
+		}
+.seo{
+	clear:both;
+	font-size:6px;
+	text-align:center;
+	bottom: -150px;
+    color: #FFF;
+    left: 50%;
+    margin-left: -408px;
+    position: absolute;
+    width: 800px;
+	}
+.counters{
+	width:380px;
+	margin:0 auto 15px auto;
+	}	
+.counters_in{
+	width:100px;
+	margin-bottom:20px;
+	}	
+	.logo_mail,
+	.copy,
+	.counters_in{
+		float:left;
+		font-size:12px;
+		text-align:center;
+		line-height:12px;
+		}
+	.copy{
+		margin:0 10px;
+		}
+	.copy a{
+		text-decoration:underline;
+		color:#015c97;
+		}
+/*Header
+	--------------------------------*/	
+	
+#header{
+	width:980px;
+	height:223px;
+	position:relative;
+	}	
+	
+#nav{
+	height:90px;
+	background: url("../img/menu_bg_.png") no-repeat 0px -4px;
+	}	
+	#nav ul {
+		overflow:hidden;
+		padding:43px 0 0 49px;
+		}	
+		#nav ul li,
+		#nav ul li a{
+			float:left;
+			height:36px;
+			list-style:none;
+			background-repeat: no-repeat;
+			}
+		#nav ul li a{
+			text-indent:-3000px;
+			overflow:hidden;
+			background-image: url("../img/menu0001.png");
+			}
+		.menu_news a{width:102px; background-position: 0 0;}	
+		.menu_news a:hover{background-position: 0 -36px;}	
+		
+		.menu_about a{width:97px;background-position: 0 -72px;}
+		.menu_about a:hover{background-position: 0 -108px;}
+		
+		.menu_download a{width:97px;background-position: 0 -144px;}
+		.menu_download a:hover{background-position: 0 -180px;}
+		
+		.menu_media a{width:92px; background-position: 0 -216px;}	
+		.menu_media a:hover{background-position: 0 -252px;}
+		
+		.menu_catalog a{	width:157px;background-position: 0 -288px;}
+		.menu_catalog a:hover{background-position: 0 -324px;}
+		
+		.menu_forum a{width:90px;background-position: 0 -360px;}
+		.menu_forum a:hover{background-position: 0 -396px;}
+		
+		.menu_community a{width:126px;background-position: 0 -432px;}	
+		.menu_community a:hover{background-position: 0 -468px;}	
+		
+		.menu_support a{width:119px;background-position: 0 -504px;}
+		.menu_support a:hover{background-position: 0 -540px;}			
+
+		
+		
+	
+		
+/*Zone
+	------------------------------*/		
+			
+#zone{
+	background: url("../img/bg_contf.png") repeat-y 50% 0;	
+	position:relative;
+	padding-bottom:20px;
+	}
+  #zone:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+ #zone {display: inline-block;}   /* for IE/Mac */
+ #zone{zoom: 1;display: block;}  /* resets display for IE/Win */
+ 
+ 
+ 
+/*news*/ 
+ 
+ .main_news{
+	margin-top:11px;
+	position:relative;
+	z-index:12;
+	}
+.news_in,
+.news_in2{
+	clear:both;
+	}
+	
+.text_news{
+	clear:both;
+	padding:0 10px 10px 0;
+	}
+	.text_news ul {
+		margin-left: 16px;
+		}
+	.text_news ul li{
+		list-style-position:outside;
+		margin: 1px 5px 9px 0;
+		}
+	.text_news p{
+		padding-bottom:10px;
+		}
+.news_content{
+	overflow:hidden;
+	padding-left:17px;
+	}	
+	
+.important_0.small, .important_1.small, .important_2.small, 
+.promo_0.small, .promo_1.small, .promo_2.small,
+.guide_0.small, .guide_1.small, .guide_2.small,
+.event_0.small, .event_1.small, .event_2.small,
+.common_0.small, .common_1.small, .common_2.small,
+.default_0.small, .default_1.small, .default_2.small,
+.notice_0.small, .notice_1.small, .notice_2.small,
+.devblog_0.small, .devblog_1.small, .devblog_2.small{
+	width:27px;
+	height:35px;
+	position:relative;
+	top:-6px;
+	float:left;
+	background-repeat:no-repeat;
+	background-image: url("http://img.static.operator.mail.ru/allods/icons/small_news_type.png");
+	}	
+	
+.important_0, .important_1, .important_2, 
+.promo_0, .promo_1, .promo_2,
+.guide_0, .guide_1, .guide_2,
+.event_0, .event_1, .event_2,
+.common_0, .common_1, .common_2,
+.default_0, .default_1, .default_2,
+.notice_0, .notice_1, .notice_2,
+.devblog_0, .devblog_1, .devblog_2{
+	width:69px;
+	height:92px;
+	position:relative;
+	top:-6px;
+	float:left;
+	background-repeat:no-repeat;
+	background-image: url("../img/type_nex.png");
+	}	
+	
+.default_0, .notice_0{background-position:0 -288px;}	
+.default_1, .notice_1{background-position:-80px -288px;}
+.default_2, .notice_2{background-position:-160px -288px;}
+
+.guide_0{background-position:0px -192px;}
+.guide_1{background-position:-80px -192px;}
+.guide_2{background-position:-160px -192px;}	
+
+.event_0{background-position:0 -480px;}
+.event_1{background-position:-80px -480px;}
+.event_2{background-position:-160px -480px;}
+	
+.promo_0{background-position:0 0;}
+.promo_1{background-position:-80px 0;}
+.promo_2{background-position:-160px 0;}
+	
+.common_0{background-position:0 -384px;}
+.common_1{background-position:-80px -384px;}
+.common_2{background-position:-160px -384px;}
+
+.important_0{background-position:0px -96px;}
+.important_1{background-position:-80px -96px;}
+.important_2{background-position:-160px -96px;}
+
+
+.devblog_0{background-position:0px -576px;}
+.devblog_1{background-position:-80px -576px;}
+.devblog_2{background-position:-160px -576px;}
+
+
+
+
+
+.default_0.small, .notice_0.small{background-position:0 -105px;}	
+.default_1.small, .notice_1.small{background-position:-27px -105px;}
+.default_2.small, .notice_2.small{background-position:-54px -105px;}
+
+.guide_0.small{background-position:0px -70px;}
+.guide_1.small{background-position:-27px -70px;}
+.guide_2.small{background-position:-54px -70px;}	
+	
+	
+.common_0.small{background-position:0 -140px;}
+.common_1.small{background-position:-27px -140px;}
+.common_2.small{background-position:-54px -140px;}
+
+
+
+.promo_0.small{background-position:0 0;}
+.promo_1.small{background-position:-27px 0;}
+.promo_2.small{background-position:-54px 0;}
+
+.event_0.small{background-position:0 -175px}
+.event_1.small{background-position:-27px -175px;}
+.event_2.small{background-position:-54px -175px;}
+
+.important_0.small{background-position:0px -35px;}
+.important_1.small{background-position:-27px -35px;}
+.important_2.small{background-position:-54px -35px;}
+
+
+.devblog_0.small{background-position:0px -210px;}
+.devblog_1.small{background-position:-27px -210px;}
+.devblog_2.small{background-position:-54px -210px;}
+
+.news_content h4{
+	float:left;
+	position:relative;
+	left:-13px;
+	width:400px;
+	padding-left:13px;
+	background: url("../img/arrow_rf.png") no-repeat 0 6px;
+	padding-bottom:3px;
+	} 
+	.news_content h4 a{
+		color:#0072bc;
+		font-size:12px;
+		text-decoration:underline;
+		}	
+		.news_content h4 a:hover{
+			color:#000;
+			}	
+		.news_content  .date{
+			float:right;
+			font:11px Verdana;
+			white-space:nowrap;
+			}
+.comment_news{
+	text-align:right;
+	}			
+.comment_news a{
+	color:#0072bc;
+	
+	text-decoration:underline;
+	font-size:11px;
+	}				
+	.comment_news a:hover{
+		text-decoration:underline;		
+		}
+	
+.news_in, .news_in2{
+	padding:4px;
+	min-height:90px;
+	margin:3px 0;
+	background: url("../img/news_bg1.jpg") no-repeat 0 100%;
+	border:1px solid #725939;
+	}			
+.news_in2{
+	background: url("http://img.static.operator.mail.ru/allods/news_bg2.jpg") repeat 0 100%;
+	}			
+			
+			
+			
+/*double_block*/			
+
+.double_block{
+	background: url("../img/top_douc.png") no-repeat 0 0;
+	}
+	.double_block_in{
+		overflow:hidden;
+		padding-top:20px;
+		}
+.forum_posts{
+	float:left;
+	width:100%;
+	}	
+	.events{
+		margin-left:19px;
+		}
+	.events p{
+		overflow:hidden;
+		font:11px/12px Arial;
+		}
+	.events h5{
+		padding-left:12px;
+		overflow:hidden;
+		padding-bottom:2px;
+		color:#0072bc;
+		font:bold 12px/13px Arial, Tahoma;
+		background: url("../img/arrow_bm.png") no-repeat 0 3px;	
+		}
+		.events h5 a:hover{
+			color:#0072bc;
+			text-decoration:underline;
+			}
+		.events .status_1 {background: url("../img/arrow_rf.png") no-repeat 0 3px;	}
+		.events .status_2 {background: url("http://img.static.operator.mail.ru/allods/icons/arrow_green.png") no-repeat 0 3px;	}	
+			
+
+			
+		.events .status_1  span{color:#790000;}
+		.events .status_2  span{color:#197b30;}
+		.events  .status_3 span{color:#000}
+.event_icon_big,
+.event_icon_small{
+	float:left;
+	clear:both;
+	margin-right:7px;
+	}		
+		
+.posts,
+.events_list{
+	clear:both;
+	}
+	.posts li,
+	.events_list li{
+		list-style:none;
+		padding:4px 3px;
+		overflow:hidden;
+		border-top:1px solid #725939;
+		}
+	.posts li h5{
+		float:left;
+		width:173px;
+		min-height: 30px;
+		padding-left:12px;
+		padding-right:20px;
+		background: url("../img/arrow_rf.png") no-repeat 0 4px;
+		}
+	.posts li a{
+		color:#790000;
+		font:normal 12px/13px Arial, Tahoma;
+		font-weight: bold;
+		}
+	.posts li .date{
+		text-align:center;
+		font-size:10px;
+		font-family:Tahoma;
+		}
+	.user{
+		display:block;
+		float: right;
+		overflow:hidden;
+		width: 85px;
+		text-align:center;
+		color:#790000;
+		}
+.tc_decor{
+	position:absolute;
+	top:-6px;
+	right:308px;
+	width:35px;
+	height:22px;
+	background: no-repeat 0 0;
+	z-index:15;
+	}
+.tl_decor,
+.tr_decor{
+	position:absolute;
+	width:22px;
+	height:22px;
+	top:-6px;
+	z-index:15;
+	}	
+.tl_decor{
+	left:21px;
+	background: no-repeat 0 0;
+	}
+.tr_decor{
+	right:21px;
+	background: no-repeat 0 0;
+	}	
+	
+.content,
+.content_inner{
+	float:left;
+	width:606px;
+	padding:0 10px;
+	margin-left:30px;
+	}	
+.content_inner{
+	padding:6px 7px;
+	}	
+.content_ban{
+	overflow:hidden;
+	margin-bottom:5px;
+	}	
+.content_ban a{
+	 float:left;
+	 border:1px solid #725939;
+	}
+.content_ban a img{
+	display:block;
+	}	
+.first_ban{
+	float:left;
+	position:relative;
+	margin-right:0px;
+	zoom:1;
+	}
+/*	
+.content_ban .first_ban a{
+	position:absolute;
+	top:50px;
+	z-index:2222;
+	width:51px;
+	height:25px;
+	line-height:400px;
+	border:0;
+	background: url("http://img.static.operator.mail.ru/allods/blank.gif") repeat 0 0;
+	overflow:hidden;
+	}
+.content_ban .first_ban .link1{
+	left:183px;
+	}
+.content_ban .first_ban .link2{
+	left:240px;
+	}
+*/	
+/*Slider
+	------------------------------*/
+	
+
+#slider_main{
+	height:160px;
+	position:relative;
+	left:-7px;
+	}
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	height:160px;
+	width:625px;
+}
+#slider a{
+	float:left;
+	}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	margin-left:15px;
+	}
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	background-image: url("../img/slider_n.png");
+	background-repeat: no-repeat;
+	width:10px;
+	padding:2px 4px;
+	height:28px;
+	color:#ffe696;
+	text-shadow:0 0 2px #000;
+	font-weight:bold;
+	text-decoration:none;
+	margin-right:3px;
+}
+.nivo-controlNav a.active,
+.nivo-controlNav a:hover {
+	background-position: 0 -32px;
+}
+
+
+.rotate_decor{
+	position:absolute;
+	bottom:-19px;
+	left:-5px;
+	width:637px;
+	height:34px;
+	z-index:31;
+	background: url("../img/rotate_e.png") no-repeat 0 0;
+	}	
+	
+
+	
+	
+	
+	
+	
+/*NEWS
+	-----------------------------------*/
+
+	
+.types_news,
+.types_media{
+	float:left;
+	list-style:none;
+	padding-left:1px;
+	}
+
+.head_menus{
+	border-bottom:1px solid #725939;
+	overflow:hidden;
+	clear:both;
+	}
+	
+.more_menu{
+	float:right;
+	list-style:none;
+	}
+	.more_menu li{
+		float:right;	
+
+		}
+		
+.types_news li,
+.types_media li,
+.catalog_type li{
+	float:left;
+	list-style:none;
+	position:relative;
+	margin-right:4px;
+	top:1px;
+	}
+.in_tab a{
+	margin-right:4px;
+	}	
+.types_news li a,
+.types_media li a,
+.catalog_type li a,
+.in_tab a{
+	float:left;
+	text-decoration:none;
+	position:relative;
+	font-family: 'AllodsRegular';
+	color:#fff;
+	padding:0;
+	height:19px;
+	font-size:13px;
+	text-shadow:0 0 3px #000; 
+	padding:2px 14px 0 14px;
+	background: url("../img/media_mf.png") no-repeat 100% -84px; 
+	}
+.catalog_type .last a{
+		background: url("../img/media_mf.png") no-repeat -61px 0; 
+	}
+.catalog_type .popular a{
+		background: url("../img/media_mf.png") no-repeat -91px 0; 
+	}		
+	.types_news li a span,
+	.types_media li a span,
+	.catalog_type li a span,
+	.in_tab a span{
+		position:absolute;
+		top:0;
+		left:-1px;
+		z-index:1;
+		width:2px;
+		height:20px;
+		background: url("../img/media_mf.png") no-repeat -2px -63px;
+		}
+.types_news li a em{
+	font-style:normal;	
+	}
+.types_news li.active a,
+.types_news li a:hover,
+.types_media li.active a,
+.types_media li a:hover{		
+	background: url("../img/media_mf.png") no-repeat 100% -42px;
+	}	
+.catalog_type .last.active a,
+.catalog_type .last a:hover{
+	background-position: -61px -21px; 
+	}
+.catalog_type .popular.active a,
+.catalog_type .popular a:hover{
+	background-position: -91px -21px; 
+	}	
+.more_menu .rss_link{
+	width:30px;
+	height:21px;
+	padding:0;
+	margin-right:12px;
+	background: url("../img/media_mf.png") no-repeat -139px -22px;
+	}	
+	.rss_link a{
+		display:block;
+		height:21px;
+		width:30px;	
+		}
+.more_menu .more_news,
+.go_forum,
+.all_events{
+	position:relative;
+	font-family: 'AllodsRegular';
+	color:#fff;
+	padding:4px 14px 0 14px;
+	height:17px;
+	text-shadow:0 0 3px #000;
+
+	background: url("../img/media_mf.png") no-repeat 100% -42px;
+	}	
+	.go_forum a, .all_events a, .more_menu .more_news a{color:#fff;	text-decoration:none;}
+	.more_menu .more_news span,
+	.go_forum span,
+	.all_events span{
+		position:absolute;
+		top:0;
+		left:-10px;
+		width:19px;
+		height:21px;
+		background: url("../img/media_mf.png") no-repeat -119px 0;
+		}
+	.go_forum span,
+	.all_events span{
+		background: url("../img/media_mf.png") no-repeat -139px 0;
+		}			
+
+.content_decor{
+	width:610px;
+	clear:both;
+	height:17px;
+	margin:0 auto 5px auto;
+	background: url("../img/separatq.png") no-repeat 0 0;
+	}
+
+
+		 
+/* RIGHT COLUMN
+		--------------------------------------*/
+			
+.aside{
+	float:left;
+	width:293px;
+	}
+.aside .hr{
+	width:279px;
+	height:9px;
+	margin:0 0 2px 9px;
+    background: url("../img/separatr.png") no-repeat 0 0;
+	}
+
+	
+/*Authorized*/
+
+.authorized_block, .authorized_block2, .authorized_block3{
+	width:293px;
+	margin-left:3px;
+	padding-top:28px;
+	position:relative;
+	background: url("http://img.static.operator.mail.ru/allods/usercp/bg_authorized.png") no-repeat 0 0;
+}	
+.authorized_block3{
+	min-height:146px;
+	background: url("http://img.static.operator.mail.ru/allods/usercp/bg_authorized3.png") no-repeat 0 0;
+}	
+.authorized_block{
+	min-height:146px;
+	}
+.authorized_block2{
+	background:0;
+	padding-top:5px;
+	min-height:169px;
+	width:300px;
+	}
+#in-services{
+	padding:0 0 13px 0;
+	position:relative;
+	z-index:3;
+	float:left;
+	}	
+	
+.refresh_balance {
+    background: url("http://img.static.operator.mail.ru/allods/icons/refresh_icon.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 16px;
+    margin: 0 auto;
+    width: 19px;}
+	
+#in-user{
+	overflow:hidden;
+	margin:0 0 8px 5px;
+	width:155px;
+	height:18px;	
+	padding:3px 12px;
+	position:relative;
+	top:5px;
+	white-space:nowrap;
+	background: url("../img/nickname.gif") no-repeat 0 0;
+	}	
+	#in-user a{
+		font:bold 11px Verdana;
+		color:#f0cc23;
+		}
+		#in-user a:hover{
+			color:#fff;
+			}	
+#in-how-many-messages{
+	color: #C69C6D;
+    float: left;
+    font: 11px Verdana;
+    margin: 0 0 3px 0;
+    overflow: hidden;
+    padding: 4px 4px 4px 29px;
+    width: 163px;
+	background: url("../img/crystals.gif") no-repeat 0 0;
+	}	
+	#in-how-many-messages a{
+		text-decoration:none;
+		color:#c69c6d;
+		}
+#premium-crystals{
+	color: #C69C6D;
+    float: left;
+    font: 11px Verdana;
+    margin: 0 0 3px 0;
+    overflow: hidden;
+    padding: 4px 4px 4px 29px;
+    width: 63px;
+	background: url("../img/coupons2.gif") no-repeat 0 0;
+	}	
+	#in-how-many-messages a{
+		text-decoration:none;
+		color:#c69c6d;
+		}
+.balance_link{
+	float:left;
+	width:91px;
+	height:22px;
+	margin-left:2px;
+	text-indent:-3000px;
+	overflow:hidden;
+	background: url("../img/balance_.gif") no-repeat 0 0;
+	}		
+#in-photo {
+	float:left;
+	width:91px;
+	height:90px;
+	margin:0 5px 5px 5px;
+	position:relative;
+	}	
+	#in-photo img{
+		height: 75px;
+		left: 8px;
+		overflow: hidden;
+		position: absolute;
+		top: 8px;
+		width: 75px;
+		z-index: 1;
+	}
+	#in-photo span{
+	background: url("../img/photo_fs.png") no-repeat 0 0;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 91px;
+    z-index: 2;
+	}
+		
+.medal_panel{
+	clear:both;
+	margin:0 0 4px 10px;
+	width:269px;
+	height:26px;
+	padding:2px 4px; 
+	background: url("http://img.static.operator.mail.ru/allods/medal_bg.gif") no-repeat 0 0;
+	}
+.user_buttons{
+	margin-left:10px;
+	overflow:hidden;
+	clear:both;
+	padding-top:16px;
+	}	
+	.user_buttons .button a:hover{
+		text-decoration:underline;
+		}
+#in-is-auth{
+	overflow:hidden;
+	}	
+.button{
+	float:left;
+	position:relative;
+	z-index:5;
+	height:20px;
+	margin-right:9px;
+	padding:1px 9px 2px 14px;
+	background: url("../img/left_but.gif") no-repeat 0 0;
+	}
+.button span{
+	position:absolute;
+	z-index:1;
+	top:0;
+	right:-5px;
+	width:11px;
+	height:22px;
+	background: url("../img/right_bu.gif") no-repeat 0 0;
+	}		
+	.button a{
+		font-family: 'AllodsRegular';
+		color:#fff;
+		position:relative;
+		z-index:2;
+		font-size:14px;
+		text-decoration:none;
+		text-shadow:0 0 3px #000;
+		}
+	.authorized_block label{
+		color:#c69c6d;
+		float:left;
+		font-size:13px;
+		margin-left:20px;
+		width:70px;
+		text-align:center;
+		margin-bottom:4px;
+		}
+	#login, #password2{
+		background:0;
+		width:168px;
+		height:17px;
+		border:1px solid red;
+		margin-bottom:7px;
+		color:#fff;
+		border:0;
+		}	
+	.enter	{
+		background: 0;
+		border: 0;
+		clear: both;
+		cursor: pointer;
+		display: block;
+		height: 37px;
+		margin: 0 auto;
+		width: 180px;
+
+		}
+	.connect{
+		text-indent:-3000px;	
+		overflow:hidden;
+		width: 180px;
+		bottom:43px;
+		left:56px; 
+		height:37px;
+		position:absolute;
+		}
+	.connectemail{
+		color:#c69c6d;
+		overflow:hidden;
+		width:230px;
+		margin:0 auto 0 auto;
+		line-height:20px;
+		text-align:center;
+		}	
+	.auth_decor{
+		position:absolute;
+		width:309px;
+		height:34px;
+		left:-8px;
+		bottom:-5px;
+		background: url("../img/decor_ut.png") no-repeat 0 0;
+		}
+	.reg_links {
+		color:#c69c6d;	
+		width:239px;
+		padding:3px 0;
+		margin:0 auto;
+		text-align:center;
+		position:relative;
+		z-index:2;
+		bottom:-3px;
+		background: url("http://img.static.operator.mail.ru/allods/usercp/bottom_links.png") no-repeat 0 0;
+		}
+		.reg_links.conn{
+			bottom:34px;
+			}
+		.reg_links a{
+			color:#c69c6d;
+			text-decoration:none;
+			}	
+			.reg_links a:hover{
+				text-decoration:underline;
+				}	
+
+	.remember-container label{    
+		cursor: pointer;
+		font-size:11px;
+		margin-left:0;
+		}	
+	.remember-container div{
+		float:left;
+		width:15px;
+		height:15px;
+		overflow:hidden;
+		margin-left:100px;
+		}
+	 div.boxChecked {
+		background: url("http://img.static.operator.mail.ru/allods/usercp/checkbox.png") no-repeat 0 0;
+		}
+	 div.boxUnchecked {
+		background: url("http://img.static.operator.mail.ru/allods/usercp/checkbox.png") no-repeat 0 -15px;
+		}
+
+	 div.boxChecked input, div.boxUnchecked input {
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+		width: 15px;
+		height:15px;
+		opacity: 0;
+		}
+
+	
+/*Banners*/
+	
+.banners{
+	overflow:hidden;
+	clear:both;
+	margin:0 0 2px 7px;
+	}	
+	.banners a{
+		float:left;
+		clear:both;
+		margin-bottom:4px;
+		border:1px solid #685134;
+		}	
+		.banners a img{
+			display:block;
+			}	
+	
+/*Photos*/	
+	
+.more_media{
+	position:relative;
+	float:right;
+	top:2px;
+	margin-right:5px;
+	padding:2px 5px 0 14px;
+    font-family: 'AllodsRegular';
+	color:#fff;
+	font-size:13px;
+	height:19px;
+	text-shadow:0 0 3px #000;
+	background: url("../img/media_mf.png") no-repeat 100% -43px;
+	}	
+	.main_media .more_media,
+	.more_media{
+		margin-right:0;
+		text-decoration:none;
+		}
+	.more_media span{
+		position:absolute;
+		top:0;
+		left:-10px;
+		width:19px;
+		height:20px;
+		background: url("../img/media_mf.png") no-repeat -120px -22px;
+		}
+	.more_media:hover{
+		color:#fff;
+		}	
+.photo_main{
+	overflow:hidden;
+	}
+.photo_type{
+	margin-left:10px;
+	}	
+.photo_type li,
+.photo_type li a{
+	float: left;
+	width:30px;
+	height:21px;
+	list-style:none;
+	background-repeat: no-repeat;
+	margin-right:3px;
+	}	
+.photo_type li a{
+	background-image: url("../img/media_mf.png");
+	}
+
+.photo_type .last a{background-position: 0 0;}
+.photo_type .last a:hover,
+.photo_type .last.active a{background-position: 0 -21px;}
+.photo_type .popular a{background-position: -30px 0;}	
+.photo_type .popular a:hover,
+.photo_type .popular.active a{background-position: -30px -21px;}	
+
+.photos_last,
+.photos_popular{
+	clear:both;
+	border-top:1px solid #725939;
+	padding-top:4px;
+	float:left;
+	margin-left:10px;
+	width:279px;
+	}		
+	.photos_last li,
+	.photos_popular li,
+	.media_frame{
+		float:left;
+		width:90px;
+		height:90px;
+		position:relative;
+		list-style:none;
+		margin: 0 2px 3px 1px;
+		}		
+	.photos_last li a,
+	.photos_popular li a,
+	.media_frame a{
+			position:absolute;
+			top:0; 
+			left:0;
+			z-index:2;
+			width:91px;
+			height:90px;
+			background: url("../img/photo_fs.png") no-repeat 0 0;
+			}	
+		.photos_last li img,
+		.photos_popular li img,
+		.media_frame img{
+			height:75px;
+			}
+		.photos_last .croper,
+		.photos_popular .croper,
+		.media_frame .croper{
+			position:absolute;
+			top:8px; 
+			left:8px;
+			z-index:1;
+			overflow:hidden;
+			width:75px;
+			height:75px;
+			}	
+.media_frame{
+	position:relative;
+	float:none;
+	margin:5px auto;
+	}			
+			
+.catalog_main .head_menus{
+	margin-left: 10px;
+    width: 280px;
+	}	
+.head_menus.pad{
+	margin-bottom:4px;
+	}	
+.catalog_main .more_media{
+	text-decoration:none;
+	}	
+.catalog_main .more_media:hover{
+	text-decoration:underline;
+	}	
+.catalog_main .jcarousel-skin-tango{
+	clear:both;
+	margin-left:27px;
+	padding-top:7px;
+	}	
+	
+.jcarousel-skin-tango #catalog_list {
+	width:239px;
+	clear:both;
+	}
+.jcarousel-skin-tango #catalog_list li{
+	width:239px;
+	height:104px;
+	background: url("../img/bg_catal.png") repeat-y 0 0;
+	}
+	.jcarousel-skin-tango #catalog_list li div{
+		position:relative;
+		height:51px;
+		padding:3px;
+		height:47px;
+		}
+	.jcarousel-skin-tango #catalog_list li h4 {
+		float:left;
+		width:175px;
+		padding-left:10px;
+		margin-top:9px;
+		}
+	.jcarousel-skin-tango #catalog_list li h4 a{
+			font-family: 'AllodsRegular';
+			color:#fff;
+			line-height:14px;
+			text-shadow:1px 1px 3px #000;
+			font-size:13px;
+			font-weight:normal;
+			text-decoration:none;
+			}
+	*+html .jcarousel-skin-tango #catalog_list li h4 a{
+				line-height:16px;
+				}
+	.jcarousel-skin-tango #catalog_list li .blue a{
+			color:#1d65d4;
+			}
+	.jcarousel-skin-tango #catalog_list li .violet a{
+			color:#9332d1;
+			}
+	.jcarousel-skin-tango #catalog_list li .orange a{
+			color:#fab806;
+			}
+	.jcarousel-skin-tango #catalog_list .jcarousel-item img{
+		position:static;
+		float:left;
+		}
+.catalog_main .jcarousel-skin-tango .jcarousel-container-horizontal{
+	width:239px;
+	}
+.catalog_main .jcarousel-skin-tango .jcarousel-clip-horizontal{
+	width:239px;
+	}
+	
+	
+	
+	
+.jcarousel-skin-tango,
+.jcarousel-skin-tango2{
+	margin-left:16px;
+	clear:both;
+	}			
+.jcarousel-skin-tango .jcarousel-direction-rtl,
+.jcarousel-skin-tango2 .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal,
+.jcarousel-skin-tango2 .jcarousel-container-horizontal {
+    width: 578px;
+	height:114px;
+	margin:4px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-clip,
+.jcarousel-skin-tango2 .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal,
+.jcarousel-skin-tango2 .jcarousel-clip-horizontal  {
+    width: 578px;
+	height:114px;
+}
+
+.jcarousel-skin-tango .jcarousel-item,
+.jcarousel-skin-tango2 .jcarousel-item ,
+.media_wall li,
+.media_art li,
+.media_screen li,
+.media_frame2{
+    width: 114px;
+    height: 114px;
+	margin-right:2px;
+	position:relative;
+	}
+.jcarousel-skin-tango .jcarousel-item .frame,
+.jcarousel-skin-tango2 .jcarousel-item .thumbnail,
+.media_wall li a,
+.media_art li  a,
+.media_screen li a,
+.media_frame2 a{
+    position:absolute;
+	top:0;
+	left:0;
+	width: 114px;
+    height: 114px;
+	z-index:2;
+    background:url("../img/frame_me.png") no-repeat 0 0;
+	}
+.jcarousel-skin-tango .jcarousel-item .croper,
+.jcarousel-skin-tango2 .jcarousel-item .croper,
+.media_wall li .croper,
+.media_art li .croper,
+.media_screen li .croper,
+.media_frame2 .croper{
+			position:absolute;
+			top:8px; 
+			left:8px;
+			z-index:1;
+			overflow:hidden;
+			width:98px;
+			height:98px;
+			}
+.jcarousel-skin-tango .jcarousel-item-placeholder,
+.jcarousel-skin-tango2 .jcarousel-item-placeholder  {
+    background: #fff;
+    color: #000;
+}
+
+.media_wall li,
+.media_art li,
+.media_screen li{
+	float:left;
+	margin:0 0 7px 7px;
+	list-style:none;
+	}
+.media_wall,
+.media_art,
+.media_screen{
+	margin-top:10px;
+	}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal,
+.jcarousel-skin-tango2 .jcarousel-next-horizontal  {
+    position: absolute;
+    top: 31px;
+    right: -19px;
+    width: 16px;
+    height: 48px;
+    cursor: pointer;
+    background:url("../img/arrows00.png") no-repeat -16px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal,
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal  {
+    position: absolute;
+    top: 31px;
+    left: -19px;
+    width: 16px;
+    height: 48px;
+    cursor: pointer;
+    background:url("../img/arrows00.png") no-repeat 0 0;
+}
+
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus,
+.jcarousel-skin-tango2.jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango2.jcarousel-next-horizontal:focus  {
+    background-position: -16px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active,
+.jcarousel-skin-tango2 .jcarousel-next-horizontal:active {
+    background-position: -16px 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango2 .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -16px -47px;
+}
+
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal,
+.jcarousel-skin-tango2 .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background:url("../img/arrows00.png") no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus,
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:focus {
+    background-position: 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active,
+.jcarousel-skin-tango2 .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango2 .jcarousel-prev-disabled-horizontal:active  {
+    cursor: default;
+    background-position: 0 -47px;
+}
+
+
+.media_video{
+	margin-top:12px;
+	}
+
+
+
+
+
+
+
+/*pages
+	--------------------------------------------------------*/
+
+.top_ban{
+	border:1px solid #725939;
+	display:block;
+	margin-bottom:10px;
+	}
+#navbar{ 
+	padding:0 0 10px 12px;
+	font-weight:bold;
+	font-size:11px;
+	background:url("../img/double_a.png") no-repeat 0 5px;	
+	}
+	#navbar a{ 
+		padding-right:10px;
+		margin-right:1px;
+		font-weight:bold;
+		font-size:11px;
+		background:url("../img/arrow000.png") no-repeat 100% 5px;	
+		}
+.to_top{
+	font-weight:bold;
+	font-size:11px;
+	}
+	
+/*download*/
+
+.bannerpage_download{
+	width:610px;
+	height: 338px;/* 386px - с кнопкой демо */
+	margin-bottom:12px;
+	position:relative;
+	background:url("http://img.static.operator.mail.ru/allods/download_ban.png") no-repeat 0 5px;	
+	}
+
+.download_link_top,
+.demo_link_top{
+	position:absolute;
+	left:103px;
+	width:411px;
+	height:48px;
+	}	
+.download_link_top{
+	top:287px;
+	}
+.demo_link_top{
+	top:337px;
+	display: none;
+	}
+
+.article,
+.mycab li{
+	border:1px solid #725939;
+	padding:11px;
+	margin-bottom:12px;
+	float:left;
+	width:588px;
+	list-style:none;
+	background:url("http://img.static.operator.mail.ru/allods/bg_block.jpg") repeat-y 0 0;	
+	}
+img.article{
+	background:0;
+	width:auto;
+	margin:0 10px 4px 0;
+	padding:0;
+	border:0;
+	}	
+#mycab-head ul{
+	margin-bottom:15px;
+  float:left;
+  width:100%;
+	}	
+#mycab-head h3{
+	margin-bottom:15px;
+	}	
+#mycab-head .button{
+	margin-top:20px;
+	}	
+#mycab-head li{
+	list-style:none;
+	}	
+.mycab li img{
+	float:left;
+	margin-right:20px;
+	}	
+.mycab li p{
+	margin-bottom:12px;
+	}	
+.mycab li h2{
+	margin-bottom:12px;
+	}	
+.mycab li h2 a,
+.mycab li h2 {
+	font:bold 12px Verdana;
+	}	
+.mycab select{
+	width:285px;
+	}
+.info_mycab{
+	overflow:hidden;
+	}	
+.mycab-userpic span{
+	
+	}	
+.article p{
+	padding-bottom:12px;
+	}	
+	
+.article ol{
+	list-style-position:inside;
+	padding-left:15px;
+	padding-bottom:15px;
+	}	
+.center{
+	text-align:center;
+	}	
+.article ul,
+.article ol{
+	list-style-position:inside;
+	padding-bottom:10px;
+	}
+.article h1{
+	font:normal 18px Verdana;
+	padding-bottom:5px;
+	}
+.article .arr{
+	background:url("../img/double_a.png") no-repeat 0 12px;	
+	padding:6px 0 0 13px;
+	overflow:hidden;
+	}	
+.article .article_list{
+	overflow:hidden;
+	margin-left:10px;
+	}	
+.article .article_list li{
+	margin-bottom:7px;
+	line-height:14px;
+	background:url("../img/double_a.png") no-repeat 0 4px;	
+	list-style:none;
+	padding-left:16px;
+	}
+.download_table h6{
+	font:bold 12px Verdana;
+	}
+.download_table td{
+	vertical-align:middle;	
+	padding:3px 10px;
+	}	
+.error{
+	border:1px solid #8d0202;
+	background:#ffc2c2;
+	padding:20px;
+	}	
+.ok{
+	border:1px solid #037300;
+	background:#c3ffc2;	
+	padding:20px;
+	}	
+.td_green,
+.td_gray{
+	border:1px solid #725939;
+	}	
+.td_green{
+	background:url("http://img.static.operator.mail.ru/allods/bg_table2.png") repeat 0 0;
+	}	
+.td_gray{
+	background:url("http://img.static.operator.mail.ru/allods/bg_table1.png") repeat 0 0;
+	}
+.text_separator_in{
+	float:left;
+	top:-4px;
+	left:20px;
+	color:#fff;
+	line-height:12px;
+	text-shadow:1px 1px 3px #000;
+	font-size:13px;
+	font-family: 'AllodsRegular';
+	padding:2px 10px 8px 10px;
+	margin-top:4px;
+	background:url("../img/text_sep.gif") no-repeat 0 0;
+	position:relative;
+	}
+.text_separator_in.fixed {
+	width: 155px;
+	text-align: center;
+	}
+.text_separator_in span{
+	width:25px;
+	height:17px;
+	top:0;
+	right:-20px;
+	background:url("../img/text_sep.png") no-repeat 0 0;
+	position:absolute;
+	}	
+.text_separator_in a,
+.text_separator_in a:hover{
+	color:#fff;
+	}		
+	
+.icondown1, .icondown2, .icondown3, .icondown4, .icondown5, .icondown6, .trial_icon, .nvidia_icon, .ati_icon, .directx_icon, .otherdown_icon,
+.download_icon1, .download_icon2, .download_icon3, .download_icon4, .download_icon5, .icon_crystal, .icon_sms, .fan_icon{
+	width:52px;
+	height:48px;
+	display:block;
+	background:url("../img/icons_inner.png");
+	background-repeat:no-repeat;
+	}	
+.icondown1{
+	background-position:0 0;
+	}	
+.icondown2{
+	background-position:0 -52px;
+	}
+.icondown3{
+	background-position:0 -103px;
+	}
+.icondown4{
+	background-position:0 -154px;
+	}
+.icondown5{
+	background-position:0 -206px;
+	}	
+.icondown6{
+	background-position:0 -256px;
+	}
+.trial_icon,
+.fan_icon{
+	width:68px;
+	height:54px;
+	float:left;
+	background-position:0 -663px;
+	}	
+.fan_icon{
+	background-position:0 -1051px;
+	}
+.nvidia_icon{
+	float:left;
+	background-position:0 -306px;
+	}	
+.ati_icon{	
+	float:left;
+	background-position:0 -357px;
+	}	
+.directx_icon{	
+	float:left;
+	background-position:0 -408px;
+	}	
+.article_list_hor li{
+	float:left;
+	width:195px;
+	list-style:none;
+	overflow:hidden;
+	}
+.otherdown_icon{
+	float:left;
+	margin:5px 10px 0 0;
+	background-position:0 -459px;
+	}	
+.article_list_hor li p{
+		overflow:hidden;
+		margin:13px 0 0 0;
+		position:relative;
+		left:5px;
+		padding-left:12px;
+		background:url("../img/double_a.png") no-repeat 0 6px;	
+		}
+.download_icon1,
+.download_icon2,
+.download_icon3,
+.download_icon4,
+.download_icon5{
+	margin: auto;
+	width:62px;
+	height:66px;
+	}
+.download_icon1{
+	background-position:0 -718px;
+	}
+.download_icon2{
+	background-position:0 -783px;
+	}	 
+.download_icon3{ 
+	background-position:0 -850px;
+	}	
+.download_icon4{
+	background-position:0 -916px;
+	}	
+.download_icon5{
+	background-position:0 -982px;
+	}		
+.download_table a{
+	padding-left:12px;
+	background:url("../img/double_a.png") no-repeat 0 6px;	
+	}
+	
+.article_list_hor2 li{
+	float: left;
+    font-size: 10px;
+    list-style: none;
+    margin: 0 0 15px 14px;
+    overflow: hidden;
+    width: 103px;
+	}
+.article_list_hor2 p,
+.d_arrow_link{
+	padding-left:12px;
+	background:url("../img/double_a.png") no-repeat 0 6px;	
+	}
+	
+.big_icon_ao{
+	float:left;
+	width:95px;
+	margin-right:10px;
+	height:96px;
+	background:url("http://img.static.operator.mail.ru/allods/icons/big_icon_ao.png") no-repeat 0 0;	
+	}		
+	
+	
+/*billing
+	----------------*/
+
+.icon_crystal{
+	float:left;
+	background-position:0 -561px;
+	}
+	
+.pay_but{
+	width:421px;
+	height:53px;
+	border:0;
+	cursor:pointer;
+	margin-bottom:10px;
+	background:url("http://img.static.operator.mail.ru/allods/pin_but.png") no-repeat 0 0;
+	}	
+#pin_block .input_right,
+.mycab .input_right{
+	margin:6px auto;
+	width:268px;
+	height:39px;
+	padding:4px 10px;
+	background:url("http://img.static.operator.mail.ru/allods/pin_text.png") no-repeat 0 0;
+	}	
+.mycab .input_right{
+	margin:6px 0 0 0;
+	}	
+	
+.input_right input{
+	height: 30px;
+    padding: 2px 10px;
+    width: 244px;
+	background:0;
+	border:0;
+	font-size:24px;
+	text-align:center;
+	}
+.icon_sms{
+	float:left;
+	background-position:0 -612px;
+	}
+.vote_fill td{
+	vertical-align:middle;
+	}	
+#select_country,
+#select_provider{
+	float:left;
+	width:139px;
+	margin-right:10px;
+	}	
+.sms-table{
+	width:100%;
+	margin:15px 0;
+	}
+.sms-tr-first td{
+	font-weight:bold;
+	}	
+.sms-tr-other td{
+	border:1px solid #725939;
+	padding:10px;
+	font-size:12px;
+	text-align:center;
+	background:url("http://img.static.operator.mail.ru/allods/bg_table2.png") repeat 0 0;
+	}
+#country_table td{
+	text-align:left;
+	}	
+	
+	
+	
+#video-audio li{
+	margin-bottom:15px;
+	list-style:none;
+	}	
+	.ajax{
+		color:#0072BC;
+		cursor:pointer;
+		font-size:14px;
+		font-weight:bold;
+		border-bottom:1px dashed #0072BC;
+		}	
+	.hint{
+		display:none;
+		}	
+img.ajax{
+	border:0;
+	}	
+a.view{
+	text-decoration:none;
+	line-height:22px;
+	}
+
+	
+/* flash video */
+#close-flash {
+	color:#999;
+	font-size:13px;
+	position:absolute;
+	right:25px;
+	top:-2.2em;
+	border-bottom:1px dotted #999;
+	line-height:1.6em;
+	cursor:pointer;
+}
+#flash-video {
+	position:absolute;
+	left:50%;
+	margin-left:-360px;
+	width:720px;
+	top:750px;
+	display:none;
+	z-index:4000;
+}
+#shadow {
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background:#000;
+	z-index:3000;
+	display:none;
+}
+
+.top100_table{
+	width:100%;
+	font-size:11px;
+	border-top:1px solid #b8b29d
+	}
+.top100_table tr th{
+	border-bottom:1px solid #b8b29d;
+	background: #c3c5a9;
+	text-align:center;
+	padding:5px 0;
+	vertical-align: middle;
+	}
+.top100_table tr td{
+	border-bottom:1px solid #b8b29d;
+	text-align:center;
+	padding:5px 0;
+	height:40px;
+	vertical-align: middle;
+	}	
+.top100_table .odd td{
+	background: #c3c5a9;
+	}
+.top100_form label,
+.top100_form select{
+	float:left;
+	margin: 0 4px;
+	}	
+.none{
+	display:none;
+	margin-top:10px;
+	}	
+#providers.none{
+	margin-top:0;
+	}	
+.switcher li h1 a{
+	font-size:18px;
+	}	
+.switcher li {
+	list-style:none;
+	padding-bottom:15px;
+	}	
+.switcher li li{
+	list-style: inside disc;
+	}	
+	
+.submit_send{
+	background:0;
+	border:0;
+	color:#fff;
+	line-height:12px;
+	text-shadow:1px 1px 3px #000;
+	font-size:13px;
+	font-family: 'AllodsRegular';
+	}	
+	
+	
+/*Catalog
+	--------------------------*/
+
+.subcategory_itemlist li{
+	float:left;
+	width:146px; 
+	height:34px;
+	margin-bottom:11px;
+	padding-top:15px;
+	padding-left:57px;
+	list-style:none;
+	background-image:url("http://img.static.operator.mail.ru/allods/icons/icons_im.png");
+	background-repeat: no-repeat;
+	background-position:0 0;
+	}
+.subcategory_itemlist li a{
+	font-size:11px;
+	text-decoration:none;
+	height:25px;
+	display:block;
+	padding-left:12px;
+	background:url("../img/double_a.png") no-repeat 0 5px;
+	}	
+.subcategory_itemlist li.selected a{
+	text-decoration: underline;
+	}	
+.subcategory_itemlist .catalog_discount {
+	background-position:0 -49px;
+	}	
+.subcategory_itemlist .catalog_runs  {
+	background-position:0 -98px;
+	}
+.subcategory_itemlist .catalog_patron  {
+	background-position:0 -147px;
+	}	
+.subcategory_itemlist .catalog_services  {
+	background-position:0 -196px;
+	}	
+.subcategory_itemlist .catalog_rait   {
+	background-position:0 -245px;
+	}	
+.subcategory_itemlist .catalog_storage  {
+	background-position:0 -294px;
+	}	
+.subcategory_itemlist .catalog_transport {
+	background-position:0 -343px;
+	}	
+.subcategory_itemlist .catalog_elixir {
+	background-position:0 -392px;
+	}	
+.subcategory_itemlist .catalog_boxes {
+	background-position:0 -440px;
+	}		
+.subcategory_itemlist .catalog_style {
+	background-position:0 -489px;
+	}
+.subcategory_itemlist .catalog_trade {
+	background-position:0 -538px;
+	}	
+	
+.submenu_catalog {
+	clear:both;
+	overflow:hidden;
+	margin:15px 0;
+	}	
+.submenu_catalog li{
+	float:left;
+	list-style:none;
+	margin-right:20px;
+	}	
+.article h1{
+	font:bold 18px Arial;
+	margin-bottom:14px;
+	}	
+.article h2{
+	font:normal 18px Arial;
+	margin-bottom:14px;
+	}	
+#itemcatalog{
+	clear:both;
+	}	
+.sum{
+	color:#0072bc;
+	font:bold 24px 'Times New Roman', Georgia, Times;
+	}
+.sum_n{
+        color:#0072bc;
+        font:bold 20px 'AllodsWest', Georgia, Times;
+        }
+	
+.catalog_table{
+	width:588px;
+	}
+.catalog_table .button {
+	margin-left: 9px;
+	}	
+.catalog_table td{
+	padding:0 10px 10px 0;
+	font:12px Verdana;
+	}	
+.button a{
+	cursor:pointer;
+	}
+.button input{
+	background:0;
+	border:0;
+	color:#fff;
+	line-height:12px;
+	text-shadow:1px 1px 3px #000;
+	font-size:13px;
+	font-family: 'AllodsRegular';
+	cursor:pointer;
+	}
+.item_title{
+	font:bold 12px Verdana;
+	/*padding-left:12px;*/
+	cursor:pointer;
+	/*background:url("http://img.static.operator.mail.ru/allods/double_arrow.png") no-repeat 0 5px;*/
+	}
+#referpage_area input,
+#referpage_area textarea{
+	width:550px;
+	}	
+	
+.title_develop a{
+	font-size:14px;
+	font-weight:bold;
+	}	
+.announce{
+	margin-bottom:20px;
+	}	
+.img_develop_small{
+	margin-right:15px
+	}	
+	
+.play_video{
+	position:absolute;
+	top:0; left:0;
+	width:189px;
+	height:154px;
+	border:1px solid #725939;
+	background:url("../img/play_icp.png") no-repeat 54px 42px;
+	}
+.gallerythumbs{
+	width:100%;
+	}
+	.gallerythumbs td{
+		padding-bottom:20px;
+		}
+	.drivers_list li{
+		list-style:none;
+		}	
+	.demo_text{
+		margin-top:10px;
+		}	
+#tab10{
+	margin-top:12px;
+	}
+	
+.mediaItems{
+	font-size:11px;
+	}	
+.img_welcome{
+	width:598px;
+	height:365px;
+	margin-bottom:15px;
+	background:url("http://img.static.operator.mail.ru/allods/bg_startgame.png") no-repeat 0 0;
+	}	
+	
+.img_button{
+	text-align:center;
+	margin-bottom:7px;
+	}	
+	
+.img_develop_small{
+	margin-right:50px;
+	}	
+	
+.likes{
+	padding:10px 0;
+	}	
+	
+.starrating{
+	float:left;
+	margin:10px 0 0 0;
+	}	
+	
+.banners div a{
+	clear:none;
+	overflow:hidden;
+	border:0;
+	float:none;
+	}	
+.banners .quicklink{
+	position:absolute;
+	width:140px;
+	height:20px;
+	border:0;
+	top:77px;
+	left:7px;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*Classes*/	
+	
+#classes-description {
+    display: none;
+}
+#classes {
+    left: 0;
+    top: 0;
+	width:100%;
+}
+#classes td {
+}
+#classes tr td.race {
+    background: url("http://allods.mail.ru/media/images/class/races.gif") no-repeat scroll 0 0 transparent;
+    height: 85px;
+    width: 70px;
+}
+#classes tr td.kania {
+    background-position: -70px 0;
+}
+#classes tr td.gibberling {
+    background-position: -140px 0;
+}
+#classes tr td.elf {
+    background-position: -210px 0;
+}
+#classes tr td.hadagan {
+    background-position: -280px 0;
+}
+#classes tr td.orc {
+    background-position: -349px 0;
+}
+#classes tr td.undead {
+    background-position: -420px 0;
+}
+#classes tr.class td {
+}
+#classes tr.class td p {
+    color: #441900;
+    font: 11px 'verdana';
+    height: 59px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    text-align: right;
+}
+#classes tr.class td p a {
+	font-family: 'AllodsRegular';
+	line-height:59px;
+	font-size:18px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#classes tr.class td p a:hover {
+}
+#classes tr.class td div.known {
+    background: url("http://allods.mail.ru/media/images/class/table.gif") no-repeat scroll 0 0 transparent;
+    height: 531px;
+    left: 2px;
+    position: relative;
+    width: 61px;
+}
+#classes tr.class td div.unknown {
+    background: url("http://allods.mail.ru/media/images/class/table.gif") no-repeat scroll -61px 0 transparent;
+    height: 474px;
+    width: 61px;
+}
+#classes tr.class td div.known a {
+    background: url("http://allods.mail.ru/media/images/class/icons.gif") no-repeat scroll 55px 56px transparent;
+    display: block;
+    height: 56px;
+    margin: 1px 0 3px;
+    overflow: hidden;
+    text-indent: 55px;
+    width: 55px;
+}
+#classes tr.class td div.kania a.warrior {
+    background-position: 0 0;
+}
+#classes tr.class td div.kania a.paladin {
+    background-position: 0 -56px;
+}
+#classes tr.class td div.kania a.scout {
+    background-position: 0 -112px;
+}
+#classes tr.class td div.kania a.priest {
+    background-position: 0 -168px;
+}
+#classes tr.class td div.kania a.heathen {
+    background-position: 0 -224px;
+}
+#classes tr.class td div.kania a.wizard {
+    background-position: 0 -280px;
+}
+#classes tr.class td div.gibberling a.warrior {
+    background-position: -55px 0;
+}
+#classes tr.class td div.gibberling a.scout {
+    background-position: -55px -112px;
+}
+#classes tr.class td div.gibberling a.heathen {
+    background-position: -55px -224px;
+}
+#classes tr.class td div.gibberling a.mystic {
+    background-position: -55px -392px;
+}
+#classes tr.class td div.elf a.paladin {
+    background-position: -110px -56px;
+}
+#classes tr.class td div.elf a.priest {
+    background-position: -110px -168px;
+}
+#classes tr.class td div.elf a.wizard {
+    background-position: -110px -280px;
+}
+#classes tr.class td div.elf a.necromancer {
+    background-position: -110px -336px;
+}
+#classes tr.class td div.elf a.oracul {
+    background-position: -110px -392px;
+}
+#classes tr.class td div.hadagan a.warrior {
+    background-position: -165px 0;
+}
+#classes tr.class td div.hadagan a.paladin {
+    background-position: -165px -56px;
+}
+#classes tr.class td div.hadagan a.scout {
+    background-position: -165px -112px;
+}
+#classes tr.class td div.hadagan a.priest {
+    background-position: -165px -168px;
+}
+#classes tr.class td div.hadagan a.spec {
+    background-position: -165px -279px;
+}
+#classes tr.class td div.hadagan a.necromancer {
+    background-position: -165px -336px;
+}
+#classes tr.class td div.hadagan a.mystic {
+    background-position: -165px -392px;
+}
+#classes tr.class td div.orc a.warrior {
+    background-position: -220px 0;
+}
+#classes tr.class td div.orc a.paladin {
+    background-position: -220px -56px;
+}
+#classes tr.class td div.orc a.scout {
+    background-position: -220px -112px;
+}
+#classes tr.class td div.orc a.heathen {
+    background-position: -220px -224px;
+}
+#classes tr.class td div.undead a.class4 {
+    background-position: -275px -168px;
+}
+#classes tr.class td div.undead a.priest {
+    background-position: -275px -168px;
+}
+#classes tr.class td div.undead a.wizard {
+    background-position: -275px -280px;
+}
+#classes tr.class td div.undead a.necromancer {
+    background-position: -275px -336px;
+}
+#classes tr.class td div.undead a.mystic {
+    background-position: -275px -392px;
+}	
+	
+#classes tr.class td div.kania a.kania-bard{
+    background-position: 0 -448px;
+	}
+#classes tr.class td div.elf a.elves-bard{
+    background-position: -109px -448px;
+	}
+#classes tr.class td div.hadagan a.hadagan-bard {
+    background-position:-165px -448px
+}	
+#classes tr.class td div.orc a.orc-bard{
+    background-position: -221px -448px;
+	}	
+
+	
+/*About
+	-------------------*/
+
+.article_about{
+	float:left;
+	width:283px;
+	border:1px solid #725939;
+	min-height:170px;	
+	padding:8px;
+	margin:0 0 5px 5px;
+	background:url("http://img.static.operator.mail.ru/allods/about_bg.jpg") repeat-y 0 0;
+	}
+.article_about img{
+	display:block;
+	margin-bottom:10px;
+	}	
+.article_about li{
+	list-style:none;
+	color:#0072BC;
+	padding-left:14px;
+	margin-bottom:2px;
+	background:url("../img/double_a.png") no-repeat 0 6px;
+	}	
+	
+#switcher li{
+	list-style:none;
+	margin-bottom:20px;
+	}	
+	
+#flashcontent1, #flashcontent2, #flashcontent3{
+	position:relative;
+	z-index:2
+	}
+	 
+	 
+/*pager
+.nav_pages{
+	float:right;
+	margin-bottom:10px;
+	overflow:hidden;
+	}
+.nav_pages a, .nav_pages span, .nav_pages b{
+	float:left;
+	width:12px;
+	height:12px;
+	}	
+.mediaItems{
+	clear:both;
+	}
+.pager_left_double{
+	text-indent:-3000px;
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow.png") no-repeat 0 6px;
+	}
+.pager_right_double{
+	text-indent:-3000px;
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow.png") no-repeat 0 6px;
+	}
+*/
+
+
+
+.list_develop_4{
+	margin-bottom:15px;
+	}
+
+.topplayers,
+.topguilds,
+.topships,	
+.close_rait,
+.topgear,
+.toparena,
+.topraid {
+	float:left;
+	width:117px;
+	height:179px;
+	overflow:hidden;
+	text-indent:-3000px;
+	margin-bottom:20px;
+	}	
+	
+.topplayers{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_players.png") no-repeat 50% 0;}	
+.topguilds{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_guilds.png") no-repeat 50% 0;}	
+.topships{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_ships.png") no-repeat 50% 0;}	
+.topgear{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_equip.png") no-repeat 50% 0;}	
+.toparena{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_raitm.png") no-repeat 50% 0;}
+.topraid{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_raid.png") no-repeat 50% 0;}
+.close_rait{background:url("http://img.static.operator.mail.ru/allods/icons/rating_icon_close.png") no-repeat 50% 0;}	
+
+.top100_guild_name, .top100_arena_time{
+    font-size:10px;
+    font-style:italic;
+    color:gray
+    }	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+.for_pluginlike{
+	margin:5px 1px 15px 0; 
+	border-radius:3px;
+	overflow:hidden;
+	/*background:#e9dbbf url("http://img.static.operator.mail.ru/allods/news_bg2.jpg") repeat 0 100%; */
+	border:1px solid #94824e; 
+	float:right; 
+	clear:both; 
+	padding: 1px 55px 0 5px;
+	width:215px;
+	}	
+.pluginlike {
+    display: block;
+    position: relative;
+}
+.pluginlike .blocksocrghttop span {
+    position: absolute;
+    left: 1px;
+    top: 8px;
+}
+.pluginlike .blocksocrghttop {
+    background: none repeat scroll 0 0 transparent;
+    height: 31px;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    top: 0;
+    width: 215px;
+}
+.pluginlike .blocksocrghttop .counter {
+    float: right;
+}
+.pluginlike .blocksocrghttop .addthis_counter {
+    background: url("http://img.static.operator.mail.ru/general/img_expanded_small.gif") no-repeat scroll right top transparent;
+    color: #000000;
+    font-size: 12px;
+	font-weight:normal;
+    height: 24px;
+    margin: 3px 0 0 0;
+    padding: 5px 0 0;
+    width: 49px;
+	position:absolute;
+	top:0;
+	right:-50px;
+}
+.pluginlike .blocksocrghttop .addthis_counter span {
+    position: relative;
+    right: auto;
+    top: auto;
+}	
+
+.blocksocrghttop {
+    background: url("../img/soc_ao01.png") no-repeat scroll right top transparent;
+    height: 127px;
+    padding: 28px 0 0 21px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 300px;
+    width: 113px;
+    z-index: 100;
+}
+.blocksocrghttop a img {
+    margin: 25px 4px 4px 0;
+	
+}
+.blocksocrghttop .counter {
+    color: #c69c6d;
+    cursor: default !important;
+    font: bold 12px Trebuchet MS,sans-serif;
+    height: 20px;
+    margin: 9px 0 0 14px;
+    text-align: center;
+    width: 77px;
+} 	
+
+.video_items_container{
+	overflow:hidden;
+	clear:both;
+	}
+	.video_item_container{
+		float:left;
+		width:173px;
+		list-style:none;
+		height:171px;
+		padding:8px;
+		margin:0 3px 0 4px;
+		position:relative;
+		}
+	.video_item_container .frame{
+		width:189px;
+		height:133px;
+		position:absolute;
+		top:0;
+		left:0;
+		background: url("http://img.static.operator.mail.ru/allods/bg_video.png") no-repeat 0 0;
+		}	
+	.video_title{
+		overflow:hidden;
+		max-height:29px;
+		margin:5px 0 2px 0;
+		font:bold 11px Verdana, Tahoma, sans-serif;
+		}
+	.video_date{
+		color:#0072bc;
+		font: 11px Verdana, Tahoma, sans-serif;
+		}
+.video_container h3{
+	margin-bottom:2px;
+	padding: 0 0 0 14px;
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow_red.png") no-repeat 0 7px;
+	}
+.video_container .video_date{
+	font-size:12px;
+	margin-bottom:7px;	
+	}	
+
+.video_description{
+	padding:10px 0 12px 0;
+	}	
+	
+.video_tags_container li{
+	list-style:none;
+	}			
+
+.video_tags_container{
+	width:239px;
+	margin:5px auto 20px auto;
+	background:url("http://img.static.operator.mail.ru/allods/bg_tags.jpg") repeat-y 0 7px;
+	}	
+.for_video_tags_container{
+	background:url("http://img.static.operator.mail.ru/allods/top_tags.jpg") no-repeat 0 0;
+	}
+.for_video_tags_container ul{
+	padding: 15px;
+	background:url("http://img.static.operator.mail.ru/allods/bot_tags.png") no-repeat 0 100%;
+	width:209px;
+	}	
+.for_video_tags_container ul li a{
+	font: 12px Verdana, Tahoma;
+	color:#fff;
+	}		
+.for_video_tags_container ul li{	
+	padding:0 0 5px 14px;
+	color:#fff;
+	background:url("http://img.static.operator.mail.ru/allods/arrow_tags.png") no-repeat 0 6px;
+	}		
+.for_video_tags_container ul li.active_tag	{
+	font-weight:bold;
+	}
+	
+.wrpr_video_paginator{
+	width:94%;
+	padding-right:20px;
+	overflow:hidden;
+	background:url("http://allods.mail.ru/style/img/d.gif") no-repeat 100% 60%;
+	}	
+.video_paginator{
+	font:11px Verdana, Tahoma;
+	padding-bottom:12px;
+	margin:0 0 20px 20px;
+	float: left;
+    left: 50%;
+    position: relative;
+    text-align: center;
+	}
+.for_video_paginator{
+	float: left;
+    left: -50%;
+    position: relative;
+	}	
+.video_paginator span,
+.video_paginator a,
+.video_paginator b,
+.nav_pages span,
+.nav_pages a,
+.nav_pages b{
+	float:left;
+	margin-left:5px;
+	}
+	.nav_pages{
+		overflow:hidden;
+		margin-bottom:15px;
+		}
+		
+.pager_right_double,
+.pager_left_double,
+.pager_left,
+.pager_right{
+	text-indent:-3000px;
+	overflow:hidden;
+	width:10px;
+	height:14px;
+	}	
+a.pager_right_double{
+	background:url("../img/double_a.png") no-repeat 0 5px;
+	}	
+a.pager_right{
+	background:url("../img/arrow000.png") no-repeat 100% 5px;
+	}	
+a.pager_left_double{
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow_l.png") no-repeat 0 5px;
+	}	
+a.pager_left{
+	background:url("http://img.static.operator.mail.ru/allods/arrow_l.png") no-repeat 0 5px;
+	}	
+	
+span.pager_right_double{
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow_dis.png") no-repeat 0 5px;
+	}	
+span.pager_right{
+	background:url("http://img.static.operator.mail.ru/allods/arrow_dis.png") no-repeat 100% 5px;
+	}	
+span.pager_left_double{
+	background:url("http://img.static.operator.mail.ru/allods/double_arrow_l_dis.png") no-repeat 0 5px;
+	}	
+span.pager_left{
+	background:url("http://img.static.operator.mail.ru/allods/arrow_l_dis.png") no-repeat 0 5px;
+	}		
+	
+	
+.social_icons li{
+	float:left;
+	list-style:none;
+	margin:0 30px 10px 0;
+	}	
+	
+.mediaItems .thumbnail{
+	overflow:hidden;
+	width:95px;
+	height:70px;
+	display:block;
+	}
+
+/* ---[ Media ]--- */
+.media_content_decor {
+	width: 610px;
+	height: 17px;
+	margin: 0px auto 5px auto;
+	clear: both;
+	background: url("../img/separatq.png") no-repeat scroll 0px 0px transparent;
+	}
+	
+	.media_content_decor .text_separator_in {
+		width: 180px;
+		float: left;
+		position: relative;
+		left: 20px;
+		padding: 2px 10px 8px;
+		color: #FFFFFF;
+		line-height: 12px;
+		font-size: 13px;
+		font-family: 'AllodsRegular';
+		text-shadow: 1px 1px 3px rgb(0, 0, 0);
+		background: url("../img/text_sep.gif") no-repeat scroll 0px 0px transparent;
+		}
+	.media_content_decor .text_separator_in span {
+		width: 25px;
+		height: 17px;
+		position: absolute;
+		top: 0px;
+		right: -20px;
+		background: url("../img/text_sep.png") no-repeat scroll 0px 0px transparent;
+		}
+		
+		.media_content_decor .text_separator_in strong {
+			position: absolute;
+			top: 2px;
+			right: 10px;
+			color: #4FABDC;
+			font-size: 14px;
+			font-weight: normal;
+			text-align: right;
+			}
+
+.wallpaper_wrapper {
+	width: 100%;
+	overflow: hidden;
+	}
+			
+.wallpaper_item_container {
+	float: left;
+	width: 173px;
+	list-style: none;
+	height: 150px;
+	padding: 8px 8px 0px 8px;
+	margin: 0px 8px 0px 7px;
+	position:relative;
+	}
+	.wallpaper_item_container .croper{
+		position:absolute;
+                top:8px;
+                left:8px;
+                z-index:0;
+               	overflow:hidden;
+                width:173px;
+                height:117px;
+	}	
+	.wallpaper_item_container .frame {
+		width: 189px;
+		height: 133px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index:1;
+		background: url("http://img.static.operator.mail.ru/allods/bg_wallpaper.png") no-repeat 0 0;
+		}
+	
+	.wallpaper_item_container .link {
+		line-height: 24px;
+		}
+
+		
+.media_audio {
+	width: 80px;
+	height: 100px;
+	float: left;
+	background: url("http://img.static.operator.mail.ru/allods/media_audio.gif") no-repeat 0 0;
+	}
+
+.media_audio_list {
+	width: 160px;
+	float: left;
+	margin: 0px 4px;
+	overflow: hidden;
+	}
+
+	.media_audio_list a {
+		display: block;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		}
+
+span.mp3 {
+	font-size:0;
+	}
+
+table.media_mp33 {
+	 width: 100%;
+	}
+	
+	table.media_mp33 td.lh {
+		line-height: 1.7;
+		}
+
+/* ---[ Additional button (aside) ]--- */
+#in-services {
+		padding-bottom: 4px;
+		}
+	
+#sale_individual {
+	width: 186px;
+	float: right;
+	margin-right: 13px;
+	border: 0px solid red;
+	}
+
+.user_buttons {
+	margin-bottom: 26px;
+	}
+
+.individual_promo_1 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 12px;
+	background: url("http://img.static.operator.mail.ru/allods/bonus_10.png") no-repeat 0 0;
+	}
+
+.individual_promo_2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 12px;
+	background: url("http://img.static.operator.mail.ru/allods/bonus_15.png") no-repeat 0 0;
+	}
+	
+.individual_promo_3 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 12px;
+	background: url("http://img.static.operator.mail.ru/allods/bonus_25.png") no-repeat 0 0;
+	}
+
+/* ---[ Get login page ]--- */
+
+.get_mail_block {
+	min-height: 50px;
+	padding-left: 63px;
+	background: url("http://img.static.operator.mail.ru/allods/icon_mail.png") left top no-repeat;
+	}
+	
+	.get_mail_block .error {
+		margin-bottom: 10px;
+		}
+	
+	.get_mail_block .inp_line b {
+		display: block;
+		padding-bottom: 10px;
+		}
+	
+	.get_mail_block .inp_line input {
+		width: 280px;
+		height: 23px;
+		padding: 0px 4px;
+		margin-bottom: 10px;
+		font-weight: bold;
+		background: url("http://img.static.operator.mail.ru/allods/pin_text.png") no-repeat scroll 0px -10px transparent;
+		border-top: 1px solid #bbb7b2;
+		border-bottom: 1px solid #bbb7b2;
+		border-left: none;
+		border-right: none;
+		}
+	
+	.get_mail_block td:last-child {
+		padding: 7px 0px 0px 4px;
+		}
+	
+	/* custom */
+	.get_mail_block td .inside {
+		color: #443017;
+		font: bold 10px Verdana, Geneva, sans-serif;
+		text-transform: uppercase;
+		cursor: pointer;
+		}
+	
+	.get_mail_block td .inside:hover {
+		color: #725939;
+		}
+	
+	#humanverify_error {
+		height: 14px;
+		}
+	
+	.get_mail_block td font {
+		position: absolute;
+		margin-top: -16px;
+		}
+	
+	.get_mail_block .button a {
+		color: #FFFFFF;
+		}
+	
+	.get_mail_block fieldset legend {
+		font-weight: bold;
+		margin-bottom: 7px;
+		}
+	
+	.get_mail_block fieldset p {
+		width: 300px;
+		margin-top: 62px;
+		position: absolute;
+		font: 10px Verdana, Geneva, sans-serif;
+		}
+	
+	.get_mail_block fieldset table {
+		margin-top: 31px;
+		}
+	
+		.get_mail_block fieldset table p {
+			width: auto;
+			margin-top: 0px;
+			position: static;
+			}
+		
+		.get_mail_block fieldset table input {
+			height: 26px;
+			font: bold 14px Verdana, Geneva, sans-serif;
+			text-align: center;
+			background: url("http://img.static.operator.mail.ru/allods/pin_text.png") no-repeat scroll center center transparent;
+			border: 1px solid #bbb7b2;
+			}
+
+/* ---[ Tournament table ]--- http://allods.mail.ru/news.php?article=2233 */
+.tmt {
+	width: 540px;
+	margin-bottom: 10px;
+	}
+	
+	.tmt td {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 11px;
+		}
+	
+	.tmt td.sep {
+		background: url(http://allods.mail.ru/images/news/sep_in.gif) center center no-repeat;
+		}
+	
+	.tmt td.off {
+		padding-left: 30px;
+		background: url(http://allods.mail.ru/images/news/05092012_otake.gif) no-repeat;
+		}
+	
+	.tmt td.def {
+		padding-left: 30px;
+		background: url(http://allods.mail.ru/images/news/05092012_def.gif) no-repeat;
+		}
+	
+	.tmt td.ioff {
+		padding: 0px 15px;
+		background: url(http://allods.mail.ru/images/news/05092012_otake.gif) center no-repeat;
+		}
+	
+	.tmt td.idef {
+		padding: 0px 15px;
+		background: url(http://allods.mail.ru/images/news/05092012_def.gif) center no-repeat;
+		}
+
+/* ---------------------------------------------------------------------- */
+		
+
+.patch_notes_site li{
+	list-style-position:outside;
+	margin:0 0 10px 15px;
+	}
+.patch_notes_site h3{
+	padding-bottom:6px;
+	}	
+#count{
+	width:54px;
+	}	
+
+.order_ticket{
+	border:0;
+	overflow:hidden;
+	text-indent:-3000px;
+	cursor:pointer;
+	width:422px;
+	height:53px;
+	margin:0 auto;
+	background:url("http://img.static.operator.mail.ru/allods/birthday_but.png") no-repeat 0 0;
+	}	
+	
+.list_content_bold li{
+	list-style:none;
+	font-weight:bold;
+	font-size:12px;
+	padding:0 0 5px 12px;
+	background:url("../img/arrow000.png") no-repeat 0 6px;
+	}	
+	
+	
+/*bonus_system*/
+
+
+.bonus_system{
+	clear:both;
+	float:left;
+	margin:10px 0 30px 15px;
+	position:relative;
+	top:20px;
+	width:584px;	
+	background:url("http://img.static.operator.mail.ru/allods/bot_bonus_system.png") no-repeat 0 100%;
+	}
+.bonus_system_bot{
+	float:left;
+	width:584px;
+	min-height:400px;
+	position:relative;
+	bottom:20px;	
+	background:url("http://img.static.operator.mail.ru/allods/top_bonus_system.png") no-repeat 0 0;
+	}	
+.bonus_system_bot .bill_link{
+	position:absolute;
+	top:353px;
+	left:200px;
+	width:180px;
+	height:40px;
+	}	
+	
+	
+	
+.stars{
+	color: #FBDCA0;
+    font-family: 'AllodsRegular';
+    font-size: 18px;
+    margin: 72px 0 0 48px;
+    position: absolute;
+    text-align: center;
+    width: 30px;
+	}	
+.prizes{
+	position:relative;
+	float:left;
+	height:182px;
+    width: 105px;
+	margin: 31px 0 0 10px;
+	cursor:pointer;
+	background-image:url("http://img.static.operator.mail.ru/allods/prizes_sprite.png");
+	background-repeat:no-repeat;
+	}	
+	.prizes img{
+		margin:40px 0 0 22px;
+		}
+.prizes.enabled{cursor:pointer;}
+		
+.pure{background-position: 0 0;cursor: default;}
+.pure.enabled{background-position: 0 -364px;}
+.pure.select{background-position: 0 -182px;}
+
+.bronze{background-position: -113px 0;cursor: default;}
+.bronze.enabled{background-position: -113px -364px;}
+.bronze.select{background-position: -113px -182px;}
+
+.silver{background-position: -226px 0;cursor: default;}
+.silver.enabled{background-position: -226px -364px;}
+.silver.select{background-position: -226px -182px;}
+
+.gold{background-position: -339px 0;cursor: default;}
+.gold.enabled{background-position: -339px -364px;}
+.gold.select{background-position: -339px -182px;}
+
+
+.gold .stars{
+    margin: 72px 0 0 44px;
+	}
+	
+.lucky{
+	float:left;
+	position:relative;
+	width:462px;
+	height:15px;
+	margin:63px 0 0 61px;
+	color: #FBDCA0;
+    font-family: 'AllodsRegular';
+    font-size: 14px;
+	text-align:center;
+	line-height: 15px;
+	}
+.lucky_text{
+	position:relative;
+	z-index:1;
+	}	
+.lucky_progress{
+	position:absolute;
+	height:15px;
+	top:0;
+	left:0;
+	background:url("http://img.static.operator.mail.ru/allods/lucky_progress.gif") repeat-x 0 0;
+	}	
+	
+
+
+.give_prizes{
+	float:left;
+	margin-top:120px;
+	position:relative;
+	display:none;
+	width:100%;
+	}
+.give_img{
+	float:left;
+	padding:3px 10px 0 20px;
+	}
+.label_acc, .label_pers{
+float:left;
+ font-family: 'AllodsRegular';
+ font-size:14px;
+ color:#fbdca0;
+ width:130px;
+ text-align:right;
+ padding:10px 10px 0 0;
+ 
+ }
+.button_give_prizes{
+	position:absolute;
+	right:20px;
+	top:13px;
+	background:url("http://img.static.operator.mail.ru/allods/give_prizes_button.png") no-repeat 0 0;
+	border:0;
+	width:156px;
+	height:48px;
+	text-indent:-3000px;
+	overflow:hidden;
+	cursor:pointer;
+	}
+.button_give_prizes.disabled{	
+	cursor:default;
+	background:url("http://img.static.operator.mail.ru/allods/give_prizes_button_dis.png") no-repeat 0 0;
+	}
+
+.selectbox {
+  float:left;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-top:7px;
+	}
+.selectbox .select {
+  width: 161px;
+  height: 28px;
+  padding: 0 45px 0 10px;
+font-family: Verdana;
+font-size:12px;
+color:#fff;
+  background: url("http://img.static.operator.mail.ru/allods/selectbox.gif") no-repeat 0 0;
+}
+
+/*.selectbox .select:hover {
+	background-color: #E6E6E6;
+	background-position: 0 -10px;
+}
+.selectbox .select:active {
+	background: #f5f5f5;
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,0.1);
+}*/
+.selectbox.focused .select {
+  border: 1px solid #5794BF;
+}
+.selectbox .select .text {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-top:5px;
+}
+.selectbox .trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 34px;
+	height: 100%;
+}
+
+.selectbox .dropdown {
+	top: 33px;
+	width: 160px;
+	margin: 0;
+	padding: 4px 0;
+	background: #FBDCA0;
+	border: 1px solid #ba9e62;
+	border-radius: 4px;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+	font: 12px/16px Verdana, Arial, Tahoma, sans-serif;
+	}
+.selectbox li {
+	padding: 5px 10px 6px;
+	color: #231F20;
+	}
+.selectbox li:hover,
+.selectbox li.selected {
+	background: #ba9e62;
+	color: #fff;
+	}
+.selectbox li.disabled {
+	color: #AAA;
+	}
+.selectbox li.disabled:hover {
+	background: none;
+	}
+
+/* Subscribe page */
+
+.sscr_status_tab {
+	width: 611px;
+	height: 169px;
+	margin-bottom: 12px;
+	border: 1px solid #685134;
+	border-collapse: collapse;
+	background: url(http://img.static.operator.mail.ru/allods/bg_block.jpg);
+	}
+	
+	.sscr_status_tab td {
+		padding: 12px;
+		border: 1px solid #685134;
+		}
+	
+	.sscr_status_tab form {
+		width: 258px;
+		height: 150px;
+		margin-top: 21px;
+		overflow: hidden;
+		}
+		.sscr_status_tab form div {
+			width: 128px;
+			height: 26px;
+			float: left;
+			}
+		.sscr_status_tab .subscr_status_block {
+			width: 256px;
+			}
+		.sscr_status_tab form div select {
+			width: 130px;
+			position: absolute;
+			margin-top: -2px;
+			}
+		.sscr_status_tab form div.sscr_ftxt {
+			width: 120px;
+			margin-right: 8px;
+			font-weight: bold;
+			text-align: right;
+			}
+		.sscr_status_tab form div.sscr_type {
+			font-weight: bold;
+			}
+		.sscr_status_tab form div.sscr_type.active {
+			color: #00aa28;
+			}
+		.sscr_status_tab form div.sscr_type.not_active {
+			color: #aa0000;
+			}
+		.sscr_status_tab form div.sscr_date {
+			font-weight: bold;
+			}
+		.sscr_status_tab form .subscr_status_block a {
+			width: 137px;
+			height: 22px;
+			display: block;
+			float: right;
+			background: url(http://img.static.operator.mail.ru/allods/content/subscribe/subscribe_btn.png) left top no-repeat;
+			text-indent: 1111px;
+			overflow: hidden;
+			white-space: nowrap;
+			border: none;
+			cursor: pointer;
+			}
+		.sscr_status_tab form .subscr_status_block a:hover {
+			background-position: left bottom;
+			}
+		
+		.sscr_payment_hist_list {
+			width: 100%;
+			margin: 3px 0px 15px 0px;
+			}
+			.sscr_payment_hist_list li {
+				height: 18px;
+				display: block;
+				padding: 1px 0px 1px 19px;
+				font: 10px/17px Verdana, Geneva, sans-serif;
+				background: url(http://img.static.operator.mail.ru/allods/content/subscribe/check.png) 3px center no-repeat;
+				}
+				.sscr_payment_hist_list li span.pay_0, .sscr_payment_hist_list li span.pay_1 {
+					float: right;
+					padding-right: 4px;
+					}
+				.sscr_payment_hist_list li span.pay_0 {
+					color: #bc1111;
+					}
+				.sscr_payment_hist_list li span.pay_1 {
+					color: #009a19;
+					}
+			.sscr_payment_hist_list li:nth-child(odd) {
+				background-color: #f1f1e9;
+				}
+		.sscr_payment_hist_link {
+			margin-left: 177px;
+			color: #0072bc;
+			text-align: right;
+			}
+
+.sscr_list li {
+	display: block;
+	margin-bottom: 6px;
+	padding-left: 24px;
+	background: url(http://img.static.operator.mail.ru/allods/content/subscribe/item_list_arr.png) left 1px no-repeat;
+	list-style-type: none;
+	text-indent: 0px;
+	}
+
+.subscribe_days {
+	width: 370px;
+	height: 161px;
+	margin: 0px 0px 10px 111px;
+	overflow: hidden;
+	}
+	.subscribe_days a {
+		width: 114px;
+		height: 161px;
+		display: block;
+		float: left;
+		margin-right: 7px;
+		background-image: url(http://img.static.operator.mail.ru/allods/content/subscribe/subscribe_days.jpg);
+		background-repeat: no-repeat;
+		}
+	.subscribe_days a.sscr_30 {background-position: 0px 0px;}
+	.subscribe_days a.sscr_60 {background-position: -121px 0px;}
+	.subscribe_days a.sscr_90 {background-position: -242px 0px;}
+
+.sscr_info {
+	width: 300px;
+	height: 50px;
+	overflow: hidden;
+	}
+	
+	.sscr_info div {
+		height: 25px;
+		float: left;
+		font-weight: bold;
+		}
+	.sscr_info div.caption {
+		width: 70px;
+		}
+	.sscr_info div.data {
+		width: 185px;
+		}
+	.sscr_info div.data.active {
+		color: #00aa28;
+		}
+	.sscr_info div.data.not_active {
+		color: #aa0000;
+		}
+		.sscr_info div.data select {
+		width: 185px;
+		}
+
+.sscr_ucp_tab th {text-align: center;}
+.sscr_ucp_tab td.active 	{color: #00aa28;}
+.sscr_ucp_tab td.not_active {color: #aa0000;}
+
+/* AO common Elements */
+
+.ao_tab {
+	border-top: 1px solid #B8B29D;
+	}
+	.ao_tab th {
+		height: 10px;
+		padding: 5px 0px;
+		font-size: 11px;
+		vertical-align: middle;
+		border-bottom: 1px solid #B8B29D;
+		background-color: #C3C5A9;
+		}
+	.ao_tab td {
+		height: 25px;
+		padding: 5px 0px;
+		font-size: 11px;
+		vertical-align: middle;
+		border-bottom: 1px solid #B8B29D;
+		}
+	.ao_tab.cent td {
+		text-align: center;
+		}
+	.ao_tab.left td {
+		text-align: left;
+		}
+
+.topguilds, .topships, .topgear, .toparena, .goblinobol, .topdominion {
+    float: left;
+    width: 97px;
+    margin: 0px 0px 40px;
+    height: 140px;
+    overflow: hidden;
+    text-indent: -3000px;
+    background: url("../img/rating_icons2_3.png") no-repeat scroll 0px 0px transparent;
+}
+
+.topships {
+    background-position: -94px -276px;
+    width: 102px;
+}
+
+.topgear {
+    background-position: -191px -276px;
+}
+
+.toparena {
+    background-position: -285px -276px;
+    width: 111px;
+}
+
+.goblinobol {
+    background-position: -398px -276px;
+    width: 88px;
+    margin-left: 9px;
+}
+
+.topdominion {
+    background-position: -485px -276px;
+    width: 92px;
+}
+
+.topguilds {
+    background-position: 0px -276px;
+}
+
+/* Item colors */
+
+.item_gray	 	   {color: gray;}
+.item_green		   {color: #00e526;}
+.item_blue		   {color: #2080ff;}
+.item_violet	   {color: #c040ff;}
+.item_orange	   {color: #ff8000;}
+.item_salad		   {color: #00ff96;}
+.item_relict	   {color: #e0ff40;}
+
+.item_gray:hover   {color: gray; text-decoration: none;}
+.item_green:hover  {color: #00e526; text-decoration: none;}
+.item_blue:hover   {color: #2080ff; text-decoration: none;}
+.item_violet:hover {color: #c040ff; text-decoration: none;}
+.item_orange:hover {color: #ff8000; text-decoration: none;}
+.item_salad:hover  {color: #00ff96; text-decoration: none;}
+.item_relict:hover {color: #e0ff40; text-decoration: none;}

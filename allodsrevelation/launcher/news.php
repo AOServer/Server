@@ -3,12 +3,12 @@
 
 <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
 <head>
-<link rel="shortcut icon" href="http://allodsrevelation.com/include/launcher/news_files/favicon0.ico">
+<link rel="shortcut icon" href="news_files/favicon0.ico">
     
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
-	<script type="text/javascript" src="http://allodsrevelation.com/include/launcher/news_files/jquery00.js"></script>
-        <script type="text/javascript" src="http://allodsrevelation.com/include/launcher/news_files/jquery01.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://allodsrevelation.com/include/launcher/news_files/news0000.css">
+	<script type="text/javascript" src="news_files/jquery00.js"></script>
+        <script type="text/javascript" src="news_files/jquery01.js"></script>
+	<link rel="stylesheet" type="text/css" href="news_files/news0000.css">
 <style>
 .hide_class{
   display: none;
