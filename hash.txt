@@ -1,0 +1,9 @@
+Bin/Fmod.dll|93696
+Bin/fmodex.dll|1088512
+Bin/fmod_event.dll|417280
+Bin/freetype6.dll|538324
+Bin/games.dll|93696
+Bin/games1.dll|711306
+Bin/Guard.dll|12288
+Bin/icudt42.dll|10947384
+Bin/import.dll|8192
